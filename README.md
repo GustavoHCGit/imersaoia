@@ -54,4 +54,4 @@ O projeto documenta Google AI Studio, Google Antigravity, prompts estruturados, 
 - [Aula 01 — Da ideia ao código](https://cursos.alura.com.br/imersoes/aulas/aula-01-c245)
 - [Aula 02 — Evolua seu software](https://cursos.alura.com.br/imersoes/aulas/aula-02-c246)
 - [Aula 03 — Conectando o projeto](https://cursos.alura.com.br/imersoes/aulas/aula-03-c247)
-- [Certificado da imersão](https://cursos.alura.com.br/user/guxtaneto7/immersion/certificate/114695)
+- [Certificado da imersão](https://cursos.alura.com.br/immersion/certificate/7504594e-771b-42ab-8f5b-a4ee4dad6145)
