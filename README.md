@@ -7,12 +7,34 @@ Aplicação educacional que reproduz, para fins de estudo e portfólio, os dois 
 
 > Este projeto é uma implementação educacional baseada no conteúdo da imersão. Não é o repositório oficial da Alura, não representa uma entrega oficial do curso e não reivindica autoria dos materiais da Alura.
 
+## Requisitos
+
+- Node.js 20 ou superior
+- pnpm 10.18.0 (versão usada no `packageManager` e no workflow do GitHub Actions)
+
 ## Rodando localmente
 
 ```bash
 pnpm install
 pnpm dev:static
 ```
+
+O preview fica disponível em `http://localhost:3000`. Para usar outra porta,
+execute `PORT=4173 pnpm dev:static`.
+
+## Verificação do projeto
+
+Os comandos abaixo reproduzem as verificações usadas no desenvolvimento:
+
+```bash
+pnpm check
+pnpm build:static
+pnpm test
+```
+
+O deploy estático é feito pelo workflow `.github/workflows/deploy-pages.yml` após
+um push na branch `main`. No GitHub Actions, o build usa a base `/imersaoia/`,
+necessária para o endereço publicado no GitHub Pages.
 
 A aplicação usa o navegador para persistir os objetivos do StudyFlow. Não depende de banco de dados nem de chave de API: a geração do plano é uma implementação determinística para demonstrar o fluxo do agente.
 
