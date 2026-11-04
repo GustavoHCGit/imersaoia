@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "path": "/", "title": "Projetos da Imersão Alura" },
+    { "path": "/404", "title": "Página não encontrada" }
+  ]
+}
